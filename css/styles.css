@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+.container{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.name1 {
+  float: left;
+}
+
+.name2 {
+float: right;
+}
+
+.name3 {
+  /* display: none; */
+}
