@@ -1,7 +1,6 @@
-$(document).ready(function() {
+$(document).ready(function(){
   $(".submit").click(function() {
     $(".big").fadeIn();
-    // $(".name12").val("#name");
   });
   $(".new").click(function() {
     $(".big").fadeOut();
@@ -60,5 +59,13 @@ $(document).ready(function() {
 
   });
 
+  $("#hold2").click(function(){
+     totalPoints2 += roundCounts2;
+     $("#total2").text(totalPoints2);
+     roundCounts2 = 0;
+     $(".hide2").hide();
+     $(".hide1").show();
+
+  });
 
 });
