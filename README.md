@@ -7,10 +7,8 @@ The website contains a version of the pig dice game that i created, the game is 
 Behaviour | Input | Output
 ------------ | ------------- | -------------
 |input names of players | Click submit button| toggles to game section|
-|player1 clicks roll button | random number is generated| |
-|Listen for click on What we do texts | Click | Toggle to image|
-|Check for empty form | Submit | Alert for no entry|
-|Confirm successful submission | Submit | Toast a success message|
+|player1 clicks roll button | random number is generated|value is added to cumulative score |
+|player1 clicks roll button | random number is generated| value is added to cumulative score |
 
 ## Setup/Installation Requirements
 * submit names using the submit button
