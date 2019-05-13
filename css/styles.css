@@ -1,19 +1,109 @@
 body {
+  background-image: url("http://hdwallpaperfun.com/wp-content/uploads/2014/10/Dark-Dice-Wallpaper-Widescreen-64128.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
 }
-.container{
+
+.container {
   justify-content: center;
   flex-wrap: wrap;
 }
 
+.one {
+  margin-top: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big{
+  display:none;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* display:none; */
+}
+
 .name1 {
-  float: left;
+  align-items: center;
+  margin-top: 2%;
 }
 
 .name2 {
-float: right;
+  margin-top: 2%;
+  align-content: right;
 }
 
-.name3 {
+.img1 {
+  width: 70px;
+}
+
+.font1 {
+  color: gold;
+  font-family: 'Monoton', cursive;
+}
+
+.font2 {
+  font-family: 'Monoton', cursive;
+  color: gold;
+  text-decoration: overline;
+  text-decoration: underline;
+}
+
+.card {
+  border-width: medium;
+  width: 80%;
+  margin-left: 10%
+}
+
+.row {
+  /* margin-right: 30%; */
+  text-align: center;
+  border: none;
+}
+
+.col-md-12 {
+  align-items: center;
+}
+
+.talk {
+  width: 40%;
+}
+
+.jumbotron {
+  background: transparent;
+  display: transparent;
   /* display: none; */
+}
+
+.breadcrumb {
+  align-items: center;
+  text-align: center;
+  width: 25%;
+  padding-right: 8%;
+  margin-right: 55%;
+  margin-left: 40%;
+}
+
+.little {
+  font-family: 'Monoton', cursive;
+}
+
+.new{
+
+  color: gold;
+
+  /* float: left; */
+  font-family: 'Monoton', cursive;
+}
+.new:hover{
+  font-family: 'Monoton', cursive;
+  color: white;
+}
+@media only screen and (min-width: 1490px) {
+  .five {
+    padding: 0 10%;
+  }
 }
