@@ -20,13 +20,10 @@
       <p>PLEASE ENTER YOUR NAMES HERE</p>
       <div class="little">
         <p><strong>ENTER NAME 1 </strong></p>
-        <input type="text" name="Name3" value="" required>
+        <input id="name1" type="text" name="Name3" required>
         <p><strong>ENTER NAME 2</strong> </p>
-        <input type="text" name="Name1" value="" required>
-        <br>
-        <label for="Name3"><strong>ENTER NAME 3</strong></label>
-        <br>
-        <input type="text" name="Name3" value="" required>
+        <input id="name2" type="text" name="Name1" required>
+
       </div>
       <br>
       <br>
@@ -47,14 +44,16 @@
     <section class="two">
       <div class="card talk">
         <div class="name1">
-          <h3>PLAYER 3</h3>
+          <h3>PLAYER 1</h3>
           <hr>
-          <p>Name:</p>
-          <p>Turn count:??</p>
-          <p>Round Counts: ??</p>
-          <p>Total points: ??</p>
-          <button type="button" name="ROLL">ROLL</button>
-          <button type="button" name="HOLD">HOLD AND PASS</button>
+          <p class="name12">Name:</p>
+          <p>Turn count:<span id="turn1">??</span></p>
+          <p>Round Counts:<span id="count1">??</span> </p>
+          <p>Total points:<span id="total1">??</span></p>
+          <div class="hide1">
+          <button type="button" name="ROLL"id="roll1">ROLL</button>
+          <button type="button" name="HOLD" id="hold1">HOLD AND PASS</button>
+        </div>
         </div>
       </div>
 
@@ -64,13 +63,15 @@
         <div class="name2">
           <h3>PLAYER 2</h3>
           <hr>
-          <p>Name:</p>
+          <p>Name:<span class="player2">  </span></p>
           <p>Turn count:??</p>
           <p>Round Counts: ??</p>
           <p>Total points: ??</p>
         </div>
-        <button type="button" name="ROLL">ROLL</button>
-        <button type="button" name="HOLD">HOLD AND PASS</button>
+        <div class="hide">
+        <button type="button" name="ROLL" id="roll2">ROLL</button>
+        <button type="button" name="HOLD"id="hold2">HOLD AND PASS</button>
+      </div>
       </div>
 
 
