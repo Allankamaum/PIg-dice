@@ -31,5 +31,11 @@ $(document).ready(function() {
 
   });
 
+  $("#hold1").click(function(){
+     totalPoints1 += roundCounts1;
+     $("#total1").text(totalPoints1);
+     roundCounts1 = 0;
+     $(".hide1").hide();
+  });
 
 });
