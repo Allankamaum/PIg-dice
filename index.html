@@ -6,68 +6,82 @@
   <title>Pig_Dice</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 </head>
 
 <body>
-  <section>
-    <h1> WELCOME TO PIG DICE</h1>
-    <p>PLEASE ENTER YOUR NAMES HERE</p>
+  <section class="one">
+    <h1 class="font1"> WELCOME TO PIG DICE</h1>
+    <img class="img1" src="images/spin.png" alt="">
     <hr>
-    <p><strong>Enter name 1 </strong></p>
-    <input type="text" name="Name3" value="">
-    <p><strong>Enter name 2</strong> </p>
-    <input type="text" name="Name1" value="">
-    <p><strong>Enter name 3</strong> </p>
-    <input type="text" name="Name2" value="">
+    <div class="card">
+
+      <p>PLEASE ENTER YOUR NAMES HERE</p>
+      <div class="little">
+        <p><strong>ENTER NAME 1 </strong></p>
+        <input type="text" name="Name3" value="" required>
+        <p><strong>ENTER NAME 2</strong> </p>
+        <input type="text" name="Name1" value="" required>
+        <br>
+        <label for="Name3"><strong>ENTER NAME 3</strong></label>
+        <br>
+        <input type="text" name="Name3" value="" required>
+      </div>
+      <br>
+      <br>
+      <button class="submit" type="button" name="Submit"><strong>Submit</strong></button>
+    </div>
     <br>
-    <br>
-    <button type="button" name="Submit"><strong>Submit</strong></button>
+    <div class="new">
+      <strong>NEW GAME</strong>
+  </div>
+
   </section>
 
   <br>
-  <section>
-    <h1>LET THE GAMES BEGIN</h1>
+  <br>
+  <section class="big">
+    <h1 class="font2">LET THE GAMES BEGIN</h1>
     <hr>
-    <div class="row">
-      <div class="name1">
-        <p>Name:??</p>
-        <p>Turn count:??</p>
-        <p>Round Counts: ??</p>
-        <p>Total points: ??</p>
-
+    <section class="two">
+      <div class="card talk">
+        <div class="name1">
+          <h3>PLAYER 3</h3>
+          <hr>
+          <p>Name:</p>
+          <p>Turn count:??</p>
+          <p>Round Counts: ??</p>
+          <p>Total points: ??</p>
+          <button type="button" name="ROLL">ROLL</button>
+          <button type="button" name="HOLD">HOLD AND PASS</button>
+        </div>
       </div>
 
       <br>
       <br>
-      <div class="name2">
-        <p>Name:??</p>
-        <p>Turn count:??</p>
-        <p>Round Counts: ??</p>
-        <p>Total points: ??</p>
-
+      <div class="card talk">
+        <div class="name2">
+          <h3>PLAYER 2</h3>
+          <hr>
+          <p>Name:</p>
+          <p>Turn count:??</p>
+          <p>Round Counts: ??</p>
+          <p>Total points: ??</p>
+        </div>
+        <button type="button" name="ROLL">ROLL</button>
+        <button type="button" name="HOLD">HOLD AND PASS</button>
       </div>
-    </div>
 
-    <br>
-    <br>
-    
-    <div class="">
-    <div class="name3">
 
-      <p>Name:??</p>
-      <p>Turn count:??</p>
-      <p>Round Counts: ??</p>
-      <p>Total points: ??</p>
-
-    </div>
-  </div>
+    </section>
   </section>
 
-
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="js/scripts.js">
 
-  </script>
 </body>
 
 </html>
